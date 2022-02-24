@@ -1,5 +1,57 @@
+#navbar {
+  position: fixed;
+  min-width: 200px;
+  top: 0px;
+  left: 0px;
+  width: 200;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(10, 32, 32, 0.4);
+}
+
+header {
+  color: rgb(15, 9, 9);
+  margin: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul {
+  height: 60%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #010311;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 250px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: rgb(183, 173, 230);
   }
 }
